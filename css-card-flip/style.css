@@ -36,6 +36,8 @@ body {
   transition: transform 3s;
   background: pink;
   transform-style: preserve-3d;
+  height: 40rem;
+  width: 30rem;
 }
 
 .card__front,
@@ -73,9 +75,9 @@ body {
 }
 
 .card__front {
-  background: lightgreen;
+  background-color: yellow;
   background-image: url(https://stylescribe.s3.amazonaws.com/wp-content/uploads/2016/10/state-fair-of-texas-5.jpg);
-  background-blend-mode: soft-light;
+  background-blend-mode: screen;
   color: var(--clr);
 }
 .card__front::before {
